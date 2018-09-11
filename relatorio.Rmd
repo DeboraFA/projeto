@@ -1,0 +1,12 @@
+---
+title: "Projeto - aula 2"
+author: "Débora Ferreira"
+date: "11 de setembro de 2018"
+output: html_document
+---
+
+```{r}
+dados=read.csv("gapminder_data.csv")
+head(dados)
+```
+
