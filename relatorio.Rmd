@@ -4,11 +4,14 @@ author: "Débora Ferreira"
 date: "11 de setembro de 2018"
 output: html_document
 ---
-ctrstestrr
+
 # Exemplo dos dados
 
 ```{r}
 dados=read.csv("Dados/gapminder_data.csv")
 head(dados,20)
+ncol(dados)
+nrow(dados)
 ```
+
 
